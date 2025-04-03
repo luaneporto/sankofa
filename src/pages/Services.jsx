@@ -7,7 +7,7 @@ function Services() {
   const services = [
     {
       title: "Produção de Eventos",
-      description: "Organizamos festivais, shows, exposições e eventos culturais que celebram a cultura africana e afro-brasileira.",
+      description: "Organizamos festivais, shows, exposições e eventos culturais que celebram as culturas africanas e afro-brasileiras.",
       features: [
         "Planejamento completo",
         "Curadoria artística",
@@ -16,7 +16,7 @@ function Services() {
       ]
     },
     {
-      title: "Consultoria Cultural",
+      title: "Consultoria cultural",
       description: "Oferecemos orientação especializada para projetos culturais, desde a concepção até a execução.",
       features: [
         "Elaboração de projetos",
@@ -27,7 +27,7 @@ function Services() {
     },
     {
       title: "Formação e Workshops",
-      description: "Desenvolvemos programas educativos e workshops sobre cultura africana e afro-brasileira.",
+      description: "Desenvolvemos programas educativos e workshops sobre cultura africanas e afro-brasileiras.",
       features: [
         "Oficinas temáticas",
         "Palestras",
@@ -40,7 +40,7 @@ function Services() {
   const successCases = [
     {
       title: "Festival Afro-Brasil",
-      description: "Festival anual que reúne mais de 10.000 pessoas celebrando a cultura afro-brasileira.",
+      description: "Festival anual que reúne mais de 10.000 pessoas celebrando as culturas afro-brasileiras.",
       image: "festival-afro-brasil"
     },
     {
@@ -60,8 +60,8 @@ function Services() {
       >
         <h1 className="text-4xl font-bold text-primary mb-6">O que Fazemos</h1>
         <p className="text-xl text-gray-600">
-          Nossos serviços são dedicados à promoção e valorização da cultura
-          africana e afro-brasileira
+          Nossos serviços são dedicados à promoção e valorização das culturas
+          africanas e afro-brasileiras
         </p>
       </motion.section>
 
@@ -102,7 +102,7 @@ function Services() {
                 <img 
                   className="w-full h-full object-cover"
                   alt={case_.title}
-                 src="https://images.unsplash.com/photo-1568577068303-3ccfdc732a9b" />
+                 src="public/images/IMG_9402.JPG" />
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-primary mb-2">{case_.title}</h3>

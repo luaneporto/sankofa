@@ -15,6 +15,7 @@ function PublicLayout() {
     { path: "/equipe", label: "Quem Somos" },
     { path: "/servicos", label: "O que Fazemos" },
     { path: "/editais", label: "Editais" },
+    { path: "/blog", label: "Blog" },
   ];
 
   return (
@@ -45,7 +46,7 @@ function PublicLayout() {
               {/* Social Icons */}
               <div className="flex items-center space-x-4 ml-4 border-l pl-4">
                 <a
-                  href="https://instagram.com/sankofaproducoes"
+                  href="https://instagram.com/sankofapbr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-900 hover:text-primary transition-colors"
@@ -104,7 +105,7 @@ function PublicLayout() {
               {/* Mobile Social Icons */}
               <div className="flex items-center space-x-4 px-3 py-2">
                 <a
-                  href="https://instagram.com/sankofaproducoes"
+                  href="https://instagram.com/sankofapbr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-900 hover:text-primary transition-colors"
@@ -133,8 +134,8 @@ function PublicLayout() {
             <div>
               <h3 className="text-lg font-bold mb-4">Sankofa Produções</h3>
               <p className="text-sm">
-                Produtora cultural comprometida com a valorização da cultura
-                africana e afro-brasileira.
+                Produtora cultural comprometida com a valorização das culturas
+                africanas e afro-brasileiras.
               </p>
             </div>
             <div>
@@ -146,7 +147,7 @@ function PublicLayout() {
               <h3 className="text-lg font-bold mb-4">Redes Sociais</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://instagram.com/sankofaproducoes"
+                  href="https://instagram.com/sankofapbr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-gray-300"

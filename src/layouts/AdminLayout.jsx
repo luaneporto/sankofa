@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Outlet, Link, useLocation, useNavigate } from "react-router-dom";
 import { motion } from "framer-motion";
@@ -24,10 +23,11 @@ function AdminLayout() {
     { path: "/admin/equipe", icon: Users, label: "Equipe" },
     { path: "/admin/editais", icon: FileText, label: "Editais" },
     { path: "/admin/inscritos", icon: Mail, label: "Inscritos" },
+    { path: "/", icon: LayoutDashboard, label: "Ver o site" },
   ];
 
   const handleLogout = () => {
-    // Implement logout logic here
+    localStorage.removeItem("adminAuthenticated"); // Remove authentication status
     navigate("/admin/login");
   };
 

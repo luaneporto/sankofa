@@ -14,7 +14,7 @@ function About() {
         <h1 className="text-4xl font-bold text-primary mb-6">O que Somos</h1>
         <p className="text-xl text-gray-600">
           A Sankofa Produções é uma produtora cultural dedicada à valorização e
-          promoção da cultura africana e afro-brasileira.
+          promoção das culturas africanas e afro-brasileiras.
         </p>
       </motion.section>
 
@@ -28,14 +28,14 @@ function About() {
           <img 
             className="rounded-lg shadow-lg"
             alt="Equipe Sankofa em ação"
-           src="https://images.unsplash.com/photo-1568577068303-3ccfdc732a9b" />
+           src="public/images/IMG_4920.JPG" />
         </div>
         <div className="space-y-4">
           <h2 className="text-2xl font-bold text-primary">Nossa História</h2>
           <p className="text-gray-600">
-            Fundada em 2020, nascemos do desejo de criar pontes entre a rica
-            herança cultural africana e as expressões contemporâneas da cultura
-            afro-brasileira. O símbolo Sankofa, que representa a importância de
+            Fundada em 2020, nascemos do desejo de criar pontes entre as ricas
+            heranças culturais africanas e as expressões contemporâneas das culturas
+            afro-brasileiras. O símbolo Sankofa, que representa a importância de
             conhecer o passado para construir o futuro, guia nossa missão.
           </p>
         </div>
@@ -54,11 +54,11 @@ function About() {
               <img 
                 className="w-8 h-8"
                 alt="Ícone de Preservação"
-               src="https://images.unsplash.com/photo-1675091258508-21bd0183ea2d" />
+               src="public/images/IMG_4920.JPG" />
             </div>
             <h3 className="font-bold mb-2">Preservar</h3>
             <p className="text-gray-600">
-              Manter viva a memória e as tradições culturais africanas e afro-brasileiras
+              Manter viva a memória e as tradições culturais africanass e afro-brasileirass
             </p>
           </div>
           <div className="text-center">
@@ -66,7 +66,7 @@ function About() {
               <img 
                 className="w-8 h-8"
                 alt="Ícone de Difusão"
-               src="https://images.unsplash.com/photo-1567485898576-90fd71a80b0a" />
+               src="public/images/IMG_4920.JPG" />
             </div>
             <h3 className="font-bold mb-2">Difundir</h3>
             <p className="text-gray-600">
@@ -78,7 +78,7 @@ function About() {
               <img 
                 className="w-8 h-8"
                 alt="Ícone de Inovação"
-               src="https://images.unsplash.com/photo-1682965181456-a85555ac6c59" />
+               src="public/images/IMG_4920.JPG" />
             </div>
             <h3 className="font-bold mb-2">Inovar</h3>
             <p className="text-gray-600">

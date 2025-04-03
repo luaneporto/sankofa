@@ -14,7 +14,7 @@ function AdminGrants() {
       organization: "Secretaria de Cultura do Rio de Janeiro",
       deadline: "30 de Abril, 2025",
       value: "Até R$ 100.000",
-      description: "Apoio a projetos culturais que promovam a cultura afro-brasileira no estado do Rio de Janeiro.",
+      description: "Apoio a projetos culturais que promovam as culturas afro-brasileiras no estado do Rio de Janeiro.",
       status: "Ativo"
     },
     {
@@ -23,7 +23,7 @@ function AdminGrants() {
       organization: "Fundação Cultural",
       deadline: "15 de Maio, 2025",
       value: "R$ 50.000",
-      description: "Premiação para espetáculos teatrais que abordem temas relacionados à cultura africana.",
+      description: "Premiação para espetáculos teatrais que abordem temas relacionados à cultura africanas.",
       status: "Ativo"
     },
     {
@@ -32,7 +32,7 @@ function AdminGrants() {
       organization: "Instituto Cultural",
       deadline: "1 de Junho, 2025",
       value: "Até R$ 80.000",
-      description: "Apoio a projetos musicais que valorizem ritmos e sonoridades africanas e afro-brasileiras.",
+      description: "Apoio a projetos musicais que valorizem ritmos e sonoridades africanass e afro-brasileirass.",
       status: "Rascunho"
     }
   ]);

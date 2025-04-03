@@ -8,9 +8,9 @@ function Blog() {
   const blogPosts = [
     {
       id: 1,
-      title: "A Importância dos Símbolos Adinkra na Cultura Africana",
-      excerpt: "Explore o significado profundo dos símbolos Adinkra e sua relevância na cultura contemporânea.",
-      author: "Ana Silva",
+      title: "A Importância dos Símbolos Adinkra nas culturas africanas",
+      excerpt: "Explore o significado profundo dos símbolos Adinkra e sua relevância nas culturas contemporânea.",
+      author: "Luane Porto",
       date: "2 Abril, 2025",
       category: "Cultura",
       image: "adinkra-symbols"
@@ -18,8 +18,8 @@ function Blog() {
     {
       id: 2,
       title: "Festivais Afro-Brasileiros: Um Guia Completo",
-      excerpt: "Conheça os principais festivais que celebram a cultura afro-brasileira pelo país.",
-      author: "Carlos Santos",
+      excerpt: "Conheça os principais festivais que celebram as culturas afro-brasileiras pelo país.",
+      author: "Henrique Porto",
       date: "1 Abril, 2025",
       category: "Eventos",
       image: "festivals"
@@ -45,7 +45,7 @@ function Blog() {
       >
         <h1 className="text-4xl font-bold text-primary mb-6">Blog</h1>
         <p className="text-xl text-gray-600">
-          Novidades, artigos e insights sobre cultura africana e afro-brasileira
+          Novidades, artigos e insights sobre cultura africanas e afro-brasileiras
         </p>
       </motion.section>
 
@@ -63,7 +63,7 @@ function Blog() {
                 <img 
                   className="h-48 w-full object-cover md:h-full"
                   alt={post.title}
-                 src="https://images.unsplash.com/photo-1533645902868-cf78e2c33a83" />
+                 src="public/images/IMG_4920.JPG" />
               </div>
               <div className="p-6 md:w-2/3">
                 <div className="flex items-center text-sm text-gray-500 mb-2">

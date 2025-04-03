@@ -1,5 +1,5 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { Toaster } from "@/components/ui/toaster";
 import PublicLayout from "@/layouts/PublicLayout";
 import AdminLayout from "@/layouts/AdminLayout";
@@ -18,17 +18,17 @@ import AdminSubscribers from "@/pages/admin/Subscribers";
 import Login from "@/pages/admin/Login";
 
 function App() {
-  // Show Coming Soon page for all routes except admin routes and when user is not authenticated
-  const isAdminRoute = window.location.pathname.startsWith('/admin');
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith('/admin');
   const isAuthenticated = localStorage.getItem('adminAuthenticated') === 'true';
-  const SHOW_COMING_SOON = !isAdminRoute && !isAuthenticated;
+  const SHOW_COMING_SOON = !isAuthenticated && !isAdminRoute;
 
   if (SHOW_COMING_SOON) {
     return <ComingSoon />;
   }
 
   return (
-    <> {/* Using a React Fragment as the parent element */}
+    <>
       <Routes>
         {/* Public Routes */}
         <Route path="/" element={<PublicLayout />}>

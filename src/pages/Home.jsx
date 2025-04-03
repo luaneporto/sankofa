@@ -21,7 +21,7 @@ function Home() {
     },
     {
       date: "22 Abril",
-      title: "Workshop de Dança Africana",
+      title: "Workshop de Dança africanas",
       location: "Teatro Municipal, Rio de Janeiro",
       link: "/editais/workshop-danca"
     }
@@ -31,18 +31,18 @@ function Home() {
     <img 
       key="slide-1"
       className="w-full h-[400px] object-cover"
-      alt="Festival de Cultura Afro-Brasileira"
-     src="https://images.unsplash.com/photo-1667984866675-5daf6fcb8175" />,
+      alt="Festival de Cultura afro-brasileiras"
+     src="public/images/IMG_9402.JPG" />,
     <img 
       key="slide-2"
       className="w-full h-[400px] object-cover"
-      alt="Exposição de Arte Africana"
-     src="https://images.unsplash.com/photo-1556713300-38f9ab6dce30" />,
+      alt="Exposição de Arte africanas"
+     src="public/images/IMG_4920.JPG" />,
     <img 
       key="slide-3"
       className="w-full h-[400px] object-cover"
       alt="Workshop de Música Tradicional"
-     src="https://images.unsplash.com/photo-1569445513600-c6da0506a42c" />
+     src="public/images/IMG_9402.JPG" />
   ];
 
   return (
@@ -55,11 +55,14 @@ function Home() {
           transition={{ duration: 1 }}
           className="text-center space-y-6"
         >
+          <div className="mt-8">
+            <Carousel images={carouselImages} />
+          </div>
           <h1 className="text-4xl md:text-6xl font-bold text-primary">
             Sankofa Produções
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-2xl mx-auto">
-            Valorizando e promovendo a cultura africana e afro-brasileira através de produções culturais inovadoras
+            Valorizando e promovendo as culturas africanas e afro-brasileiras através de produções culturais inovadoras
           </p>
           <div className="flex justify-center gap-4">
             <Button size="lg" asChild>
@@ -70,9 +73,6 @@ function Home() {
             </Button>
           </div>
         </motion.div>
-        <div className="mt-8">
-          <Carousel images={carouselImages} />
-        </div>
       </section>
 
       {/* Featured Section */}

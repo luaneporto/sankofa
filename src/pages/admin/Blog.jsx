@@ -10,8 +10,8 @@ function AdminBlog() {
   const [posts, setPosts] = React.useState([
     {
       id: 1,
-      title: "A Importância dos Símbolos Adinkra na Cultura Africana",
-      excerpt: "Explore o significado profundo dos símbolos Adinkra e sua relevância na cultura contemporânea.",
+      title: "A Importância dos Símbolos Adinkra nas culturas africanas",
+      excerpt: "Explore o significado profundo dos símbolos Adinkra e sua relevância nas culturas contemporânea.",
       author: "Ana Silva",
       date: "2 Abril, 2025",
       status: "Publicado",
@@ -20,7 +20,7 @@ function AdminBlog() {
     {
       id: 2,
       title: "Festivais Afro-Brasileiros: Um Guia Completo",
-      excerpt: "Conheça os principais festivais que celebram a cultura afro-brasileira pelo país.",
+      excerpt: "Conheça os principais festivais que celebram as culturas afro-brasileiras pelo país.",
       author: "Carlos Santos",
       date: "1 Abril, 2025",
       status: "Rascunho",

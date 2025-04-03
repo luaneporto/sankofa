@@ -1,4 +1,3 @@
-
 import React from "react";
 import { motion } from "framer-motion";
 import { useNavigate } from "react-router-dom";
@@ -16,7 +15,11 @@ function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Here you would typically authenticate with your backend
-    if (formData.email === "admin@sankofapbr.com.br" && formData.password === "admin") {
+    if (
+      formData.email === "admin@sankofapbr.com.br" &&
+      formData.password === "admin"
+    ) {
+      localStorage.setItem("adminAuthenticated", "true"); // Set authentication status
       toast({
         title: "Login realizado com sucesso!",
         description: "Bem-vindo ao painel administrativo.",

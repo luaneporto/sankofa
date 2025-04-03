@@ -66,7 +66,7 @@ function Contact() {
               <div className="flex items-center space-x-3">
                 <Instagram className="text-primary" />
                 <a
-                  href="https://instagram.com/sankofaproducoes"
+                  href="https://instagram.com/sankofapbr"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="hover:text-primary"
